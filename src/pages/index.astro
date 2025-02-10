@@ -35,6 +35,7 @@ const tournois = [
     background: LOL_BACKGROUND,
     description:
       "Une draft en 5v5 à jusqu'à 16 équipes. Venez montrer vos talents sur la faille de l'invocateur !",
+    link: "https://forms.gle/aovyUxUzdpBo8mUN8",
   },
   {
     name: "Rocket League 2v2",
@@ -42,6 +43,7 @@ const tournois = [
     background: ROCKET_LEAGUE_BACKGROUND,
     description:
       "Un tournoi en 2v2 où coordination et technique seront essentielles ! Formez votre duo, dominez les airs et marquez des buts spectaculaires pour décrocher la victoire.",
+    link: "https://forms.gle/SQQCJToCcVeW4UoQ8",
   },
   {
     name: "Super Smash Bros Ultimate",
@@ -49,6 +51,7 @@ const tournois = [
     background: SSBU_BACKGROUND,
     description:
       "Un tournoi en 1v1 où seul le meilleur combattant triomphera ! Choisissez votre personnage, enchaînez les combos et envoyez vos adversaires hors de l'arène.",
+    link: "https://forms.gle/8R65SLx8nxhLhJNd7",
   },
   {
     name: "Mario Kart 8",
@@ -56,6 +59,7 @@ const tournois = [
     background: MK8_BACKGROUND,
     description:
       "Un tournoi en 1v12 où chaque course est une bataille acharnée ! Entre dérapages maîtrisés, objets imprévisibles et circuits dynamiques, seul le plus rusé franchira la ligne d'arrivée en tête.",
+    link: "https://forms.gle/8NKAgGQ4JjYtk3ws8",
   },
 ];
 
@@ -125,7 +129,7 @@ const sponsors = [
             </h1>
             <p class="pb-4 xl:pb-6">Envie d'y participer ?</p>
             <a
-              href="/inscription"
+              href="https://www.facebook.com/events/2000290947160373"
               class="inline-block rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-2 font-semibold text-white transition duration-150 hover:bg-blue-50 hover:text-indigo-950"
             >
               Inscris-toi !
@@ -204,7 +208,7 @@ const sponsors = [
                 image={tournoi.image}
                 background={tournoi.background}
                 description={tournoi.description}
-                link="/tournois"
+                link={tournoi.link}
               />
             ))
           }
